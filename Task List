@@ -1,0 +1,14 @@
+Task List:
+
+1) implement Firebase API
+2) replace estimote beacons with Google Maps API
+3) Make UI look better
+	- add more colors (currently too much white space)
+	- 
+4) Update Track Page
+	- include brief description of track, distance, 
+	difficulty level, amount of hills, amount of shade coverage	
+5) Expand leaderboard to include top 25 times instead of top 10
+6) Add and display split times
+7) be able to view individual top times as well as top overall times
+8) Add friends and be able to see their top times. 
