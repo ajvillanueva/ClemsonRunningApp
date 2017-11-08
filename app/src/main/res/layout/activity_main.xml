@@ -6,4 +6,21 @@
     android:layout_height="match_parent"
     tools:context="com.clemsonrun.runningapp.MainActivity">
 
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run Tigers Run"
+        android:textSize="36sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="279dp"
+        android:layout_height="166dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="200dp" />
 </android.support.constraint.ConstraintLayout>
