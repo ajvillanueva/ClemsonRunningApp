@@ -1,4 +1,4 @@
-package com.clemsonrun.runningapp;
+package com.clemsonrun.runningapp.activities;
 
 import android.graphics.Typeface;
 import android.support.annotation.NonNull;
@@ -8,6 +8,7 @@ import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.clemsonrun.runningapp.R;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
