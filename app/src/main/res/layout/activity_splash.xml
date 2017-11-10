@@ -5,12 +5,12 @@
     android:id="@+id/activity_splash"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    tools:context="com.clemsonrun.runningapp.activities.Splash">
+    tools:context="com.clemsonrun.runningapp.activities.MainActivity">
 
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        app:srcCompat="drawable/splash"
+        app:srcCompat="@drawable/splash"
         android:id="@+id/splash"
         android:layout_alignParentTop="true" />
 </RelativeLayout>
