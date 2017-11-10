@@ -43,7 +43,11 @@
         <activity
             android:name=".activities.Tracklist"
             android:label="@string/title_activity_tracklist"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.Tracks" />
+        <activity android:name=".activities.TrackInfo" />
+        <activity android:name=".activities.AddTracks" />
+        <activity android:name=".activities.Friendlist"></activity>
     </application>
 
 </manifest>
