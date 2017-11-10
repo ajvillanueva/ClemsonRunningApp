@@ -48,6 +48,10 @@
         <activity android:name=".activities.TrackInfo" />
         <activity android:name=".activities.AddTracks" />
         <activity android:name=".activities.Friendlist"></activity>
+        <activity
+            android:name=".activities.Leaderboard"
+            android:label="@string/title_activity_leaderboard"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

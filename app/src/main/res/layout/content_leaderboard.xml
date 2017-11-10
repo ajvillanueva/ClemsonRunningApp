@@ -5,12 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.clemsonrun.runningapp.activities.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:context="com.clemsonrun.runningapp.activities.Leaderboard"
+    tools:showIn="@layout/activity_leaderboard">
 
-    <FrameLayout
-        android:id="@+id/content_frame"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"></FrameLayout>
-    
+
+
+
 </android.support.constraint.ConstraintLayout>
