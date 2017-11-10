@@ -26,10 +26,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mAuth = FirebaseAuth.getInstance();
-
-        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/pawHammer.otf");
-        TextView tv = findViewById(R.id.titleText);
-        tv.setTypeface(tf);
     }
 
     @Override
