@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RunningApp.iml" filepath="$PROJECT_DIR$/RunningApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClemsonRunningApp.iml" filepath="$PROJECT_DIR$/ClemsonRunningApp.iml" />
+      <module fileurl="file://C:\Users\CJ\Documents\GitHub\ClemsonRunningApp\RunningApp.iml" filepath="C:\Users\CJ\Documents\GitHub\ClemsonRunningApp\RunningApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -39,7 +39,11 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".activities.Splash"></activity>
+        <activity android:name=".activities.Splash" />
+        <activity
+            android:name=".activities.Tracklist"
+            android:label="@string/title_activity_tracklist"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
