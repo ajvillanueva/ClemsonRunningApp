@@ -3,6 +3,8 @@
     package="com.clemsonrun.runningapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -47,10 +49,14 @@
         <activity android:name=".activities.Tracks" />
         <activity android:name=".activities.TrackInfo" />
         <activity android:name=".activities.AddTracks" />
-        <activity android:name=".activities.Friendlist"></activity>
+        <activity android:name=".activities.Friendlist" />
         <activity
             android:name=".activities.Leaderboard"
             android:label="@string/title_activity_leaderboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Home"
+            android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
